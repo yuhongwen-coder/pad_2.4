@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dou361.dialogui:jjdxm-dialogui:1.0.3@aar">
+    <CLASSES>
+      <root url="file://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/3d3d9fd7f34d9ddc25ecd7a823788c6e/jetified-jjdxm-dialogui-1.0.3/AndroidManifest.xml" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/3d3d9fd7f34d9ddc25ecd7a823788c6e/jetified-jjdxm-dialogui-1.0.3/jars/classes.jar!/" />
+      <root url="file://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/3d3d9fd7f34d9ddc25ecd7a823788c6e/jetified-jjdxm-dialogui-1.0.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/androidstudioCache/.gradle/caches/modules-2/files-2.1/com.dou361.dialogui/jjdxm-dialogui/1.0.3/ec8ef37e37b854f0ed4271377bbe4c9ec26a71b1/jjdxm-dialogui-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/androidstudioCache/.gradle/caches/modules-2/files-2.1/com.dou361.dialogui/jjdxm-dialogui/1.0.3/7f3bad0d8a5724a51c251c66e2167c7dea4e1e0d/jjdxm-dialogui-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

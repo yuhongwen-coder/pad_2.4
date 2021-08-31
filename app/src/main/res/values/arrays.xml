@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="control_fun_list">
+        <item>抬左 </item>
+        <item>抬右</item>
+        <item>放下</item>
+        <item>点头</item>
+        <item>摇头</item>
+        <item>抬头</item>
+        <item>回原</item>
+    </string-array>
+    <string name="tz">抬左</string>
+    <string name="ty">抬右</string>
+    <string name="fx">放下</string>
+    <string name="dt">点头</string>
+    <string name="yt">摇头</string>
+    <string name="tt">抬头</string>
+    <string name="hy">回原</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.maxvision.tech.robot">
+
+    <!--bugly权限申请-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />  <!--悬浮窗显示-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".AppHolder"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/Theme.RobotApp_240"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:theme"
+        tools:targetApi="n">
+        <activity
+            android:name=".ui.activity.InitActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".alarm.AlarmNotifyActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".face.FaceUploadActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.activity.ChargeManageActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".ui.activity.DebugActivity"
+            android:screenOrientation="landscape" />
+
+        <activity android:name=".ui.activity.DialogueActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".ui.activity.AnswerActivity"
+            android:configChanges="orientation|smallestScreenSize|screenSize|screenLayout"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullScreen" />
+
+        <activity
+            android:name=".ui.activity.ChatingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullScreen" />
+
+        <activity
+            android:name=".alarm.AlarmSwitchActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.activity.RobotSettingActivity"
+            android:screenOrientation="landscape" />
+
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="960" />
+        <!--<meta-data
+            android:name="design_width_in_dp"
+            android:value="720"/>-->
+
+
+        <service android:name=".server.MqttService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+    </application>
+
+</manifest>

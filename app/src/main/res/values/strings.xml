@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">RobotApp</string>
+    <string name="text_loading_mapdata">正在加载地图</string>
+    <string name="face_upload_type">类型：</string>
+    <string name="face_upload_name">姓名：</string>
+    <string name="face_upload_sex">性别：</string>
+    <string name="face_upload_num">证件号码：</string>
+    <string name="face_upload_filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="please_input_info">请填写正确的姓名及证件号</string>
+    <string name="please_upload_image">请选择上传的图片</string>
+    <string name="face_upload_fail">上传失败</string>
+    <string name="face_upload_success">上传成功</string>
+    <string name="loading">提交中...</string>
+    <string name="getting">获取中...</string>
+    <string name="alarm_area_tip">区域布防，有人闯入</string>
+    <string name="alarm_area_tip2">机器人正在跟随,请稍候再试</string>
+    <string name="alarm_face_tip">检测到黑名单旅客</string>
+    <string name="alarm_temp_tip">发现旅客体温异常</string>
+    <string name="alarm_mask_tip">发现行人未戴口罩</string>
+    <string name="text_bat">%d%%</string>
+    <string name="text_dump_energy">剩余电量</string>
+    <string name="text_charging">正在充电…</string>
+    <string name="text_go_to_charge">正在前往充电…</string>
+    <string name="text_hint">提示</string>
+    <string name="text_sure">确定</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_task_empty">执行</string>
+    <string name="text_task_ing">执行中</string>
+    <string name="text_task_pause">暂停中</string>
+    <string name="text_task_break">恢复/结束</string>
+    <string name="function_state_off">未开启</string>
+    <string name="function_state_warn">异常</string>
+    <string name="function_state_normal">正常</string>
+    <string name="text_task_list_empty">当前无任务,请到机器人资源管理下载任务\n下载后点击刷新</string>
+    <string name="text_task_list_empty_xy">当前无任务,请点击刷新</string>
+
+    <string name="put_object">放物</string>
+    <string name="get_object">取物</string>
+    <string name="reset">复位</string>
+    <string name="chaizhuang_start">拆装</string>
+    <string name="chaizhuang_end">拆装结束</string>
+    <string name="robot_percent">%d%%</string>
+
+    <!-- 语音 -->
+    <string name="text_click_speak">请点击后说话</string>
+    <string name="text_asr_over">识别结束</string>
+    <string name="text_cancel_speak">点击取消播放</string>
+    <string name="text_recognizing">正在识别…</string>
+    <string name="text_start_speak">开始播放</string>
+    <string name="text_speaking">正在播放…</string>
+
+    <string name="tip_calling">机器人通话中，请稍后在拨！</string>
+    <string name="tip_hanging">切换机器人，需要关闭视频通话！</string>
+    <string name="tip_switch">切换对讲模式！</string>
+    <string name="tip_switch2">切换文字模式！</string>
+    <string name="tip_zldh">机器人通话中，不能进行智能对话！</string>
+    <string name="tip_zldh2">机器人正在执行任务,请结束掉任务再进行智能对话！</string>
+    <string name="text_question">问题：%s</string>
+    <string name="text_answer">回答：%s</string>
+    <string name="text_mode">对讲模式</string>
+    <string name="text_mode2">文字模式</string>
+
+    <!--ip地址输入提示-->
+    <string name="ip_address">前缀请不要加协议名</string>
+    <string name="ip_port">请输入端口</string>
+    <string name="no_network">无网络，请稍后再试！</string>
+
+</resources>

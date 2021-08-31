@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+    <Button
+        android:id="@+id/btn_robot_call"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_backgroung_round_call"
+        android:text="呼叫"/>
+
+    <TextView
+        android:id="@+id/tv_robot_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        tools:text="正在等待：2"/>
+</LinearLayout>

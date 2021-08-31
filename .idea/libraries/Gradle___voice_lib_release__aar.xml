@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: :voice_lib-release:@aar">
+    <CLASSES>
+      <root url="file://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/AndroidManifest.xml" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/jars/classes.jar!/" />
+      <root url="file://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/res" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/jars/libs/com.baidu.tts_2.6.2.2.20200629_44818d4.jar!/" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/jars/libs/hcicloud-8.1.jar!/" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/jars/libs/hcicloud_recorder-8.1.jar!/" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/jars/libs/intercom.jar!/" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/jars/libs/jcc-bate-0.7.3.jar!/" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/jars/libs/Msc.jar!/" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/141ca4e1df611f532760668226b7bbe0/jetified-voice_lib-release/jars/libs/x_log.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

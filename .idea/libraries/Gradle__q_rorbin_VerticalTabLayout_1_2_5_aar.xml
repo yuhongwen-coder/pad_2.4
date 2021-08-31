@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: q.rorbin:VerticalTabLayout:1.2.5@aar">
+    <CLASSES>
+      <root url="file://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/17d45d4a7b6558aad50eab37cf2a6b74/jetified-VerticalTabLayout-1.2.5/AndroidManifest.xml" />
+      <root url="jar://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/17d45d4a7b6558aad50eab37cf2a6b74/jetified-VerticalTabLayout-1.2.5/jars/classes.jar!/" />
+      <root url="file://E:/androidstudioCache/.gradle/caches/transforms-2/files-2.1/17d45d4a7b6558aad50eab37cf2a6b74/jetified-VerticalTabLayout-1.2.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/androidstudioCache/.gradle/caches/modules-2/files-2.1/q.rorbin/VerticalTabLayout/1.2.5/179e0bf195c54a0a52c99559c0c34ceaa252711c/VerticalTabLayout-1.2.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/androidstudioCache/.gradle/caches/modules-2/files-2.1/q.rorbin/VerticalTabLayout/1.2.5/38fb8740eba8f375174c1b58fdb6559612e0ad3c/VerticalTabLayout-1.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RobotApp_2.4.0</string>
+    <string name="webrtc_chat_mute">静音</string>
+    <string name="webrtc_chat_hands_free">免提</string>
+    <string name="webrtc_chat_refuse">拒接</string>
+    <string name="webrtc_chat_answer">接听</string>
+    <string name="webrtc_chat_hang_up">挂断</string>
+    <string name="webrtc_switch_voice">切到语音</string>
+    <string name="webrtc_switch_camera">切换摄像头</string>
+    <string name="webrtc_close_camera">关闭摄像头</string>
+    <string name="webrtc_open_camera">开启摄像头</string>
+    <string name="text_call">呼叫中...</string>
+    <string name="text_hanging">挂断中...</string>
+    <string name="text_calling">通话中...</string>
+    <string name="text_call_connect">视频连接</string>
+    <string name="text_call2">点击呼叫</string>
+    <string name="text_camera_used">机器人摄像头被占用</string>
+    <string name="camera_enable">机器人摄像头不可用，请检查！</string>
+    <string name="call_fail">无人接听，自动挂断！</string>
+</resources>

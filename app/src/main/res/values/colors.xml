@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="title_text">#00ADFE</color>
+    <color name="main_color">#223a60</color>
+    <color name="gray_alph">#B33F3E3D</color>
+    <color name="alph">#00ffffff</color>
+    <color name="text_low_battery">#E85538</color>
+    <color name="fun_state_close">#707373</color>
+    <color name="fun_state_exception">#d65f35</color>
+    <color name="fun_state_open">#2971fc</color>
+    <color name="robot_setting_bg_default">#c4d7fe</color>
+    <color name="robot_setting_bg_1">#6d9efe</color>
+    <color name="robot_setting_state">#2469fc</color>
+    <color name="text_task_green_normal">#b6ea7b</color>
+    <color name="text_task_blue_normal">#1e9afc</color>
+    <color name="text_task_blue_pressed">#4e86fd</color>
+</resources>

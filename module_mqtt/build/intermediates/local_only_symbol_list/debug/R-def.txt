@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+drawable app_logo
+string mq_pad_alarm
+string mq_pad_call
+string mq_pad_call_deal
+string mq_pad_heart
+string mq_pad_location
+string mq_sn_pad_control_door
+string mq_sn_pad_control_function
+string mq_sn_pad_control_function_return
+string mq_sn_pad_get_dialogue
+string mq_sn_pad_set_dialogue
+string mq_sn_pad_set_map
+string mq_sn_pad_set_navigation
+string mq_sn_pad_set_task
+string mq_sn_pad_task_return
+string mq_sn_pad_upload_return
+string mq_sn_rob_control
+string mq_sn_rob_get_map
+string mq_sn_rob_get_navigation
+string mq_sn_rob_get_task
+string mq_sn_rob_p2p
+string mq_sn_rob_task_control
+string mq_sn_rob_upload_face

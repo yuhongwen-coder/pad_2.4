@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="导航-缩放" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a7f7d95-3bd6-404a-9455-f4e0b845dd10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/MapView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/MapView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/NavigationView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/NavigationView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/PointEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/PointEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_navigation.xml" afterDir="false" />
+    </list>
+    <list id="94f0ce99-42fb-49b5-bd2c-39c77f2689aa" name="2222" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/AppHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/AppHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/AreaMonitorNotifyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/AreaMonitorNotifyFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/server/MqttService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/server/MqttService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_area_monitor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_area_monitor.xml" afterDir="false" />
+    </list>
+    <list id="bd77c444-8a30-48db-bb7c-0876d07fd8a9" name="not submit" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/ui/view/AlarmDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/AreaMonitorAlarmAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/AreaMonitorAlarmAdapter.java" afterDir="false" />
+    </list>
+    <file path="$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/server/MqttService.java" ignored="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="E28E7MZTGM" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rTDPIHZAhjcjvmCd2TN0e1SO0E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="huawei-ags3_w09hn-9YYNU20829408727" />
+    <property name="DEBUGGABLE_PROCESS" value="com.maxvision.tech.robot" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.maxvision.tech.mqtt" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.maxvision.tech.mqtt.entity" />
+      <recent name="com.maxvision.tech.robot" />
+      <recent name="com.maxvision.tech.robot.ui.fragment" />
+      <recent name="com.maxvision.tech.robot.ui.adapter" />
+      <recent name="com.maxvision.tech.robot.ui.activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\work\robot\RobotNew\pad\pad_2.4\app\src\main\res\mipmap-xhdpi" />
+      <recent name="F:\work\robot\RobotNew\pad\pad_2.4\app\src\main\res\drawable" />
+      <recent name="F:\work\robot\RobotNew\pad\pad_2.4\app\src\main\res\layout" />
+      <recent name="F:\work\robot\RobotNew\pad\pad_2.4\app\src\main\res\anim" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\MyPC\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\work\robot\RobotNew\pad\pad_2.4" />
+          <option name="myCopyRoot" value="F:\work\robot\RobotNew\pad\pad_2.4" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\work\robot\RobotNew\pad\pad_2.4" />
+          <option name="myCopyRoot" value="F:\work\robot\RobotNew\pad\pad_2.4" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a7f7d95-3bd6-404a-9455-f4e0b845dd10" name="Default Changelist" comment="" />
+      <changelist id="bd77c444-8a30-48db-bb7c-0876d07fd8a9" name="not submit" comment="" />
+      <changelist id="94f0ce99-42fb-49b5-bd2c-39c77f2689aa" name="2222" comment="" />
+      <created>1618991160046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618991160046</updated>
+    </task>
+    <task id="LOCAL-00001" summary="协运任务">
+      <created>1619004116767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619004116767</updated>
+    </task>
+    <task id="LOCAL-00002" summary="协运任务格式和机器人错误">
+      <created>1619006917339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619006917339</updated>
+    </task>
+    <task id="LOCAL-00003" summary="关门或者开门后重置动画对象">
+      <created>1619059500012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619059500012</updated>
+    </task>
+    <task id="LOCAL-00004" summary="代码何如错误">
+      <created>1619078345970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619078345970</updated>
+    </task>
+    <task id="LOCAL-00005" summary="报警切换到popupWindow">
+      <created>1619148374482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619148374482</updated>
+    </task>
+    <task id="LOCAL-00006" summary="大图预览">
+      <created>1619163552614</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619163552614</updated>
+    </task>
+    <task id="LOCAL-00007" summary="全局toast加一个外框颜色">
+      <created>1619165007095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619165007095</updated>
+    </task>
+    <task id="LOCAL-00008" summary="心跳刷新任务状态有点慢，改为控制上报刷新">
+      <created>1619333700114</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619333700114</updated>
+    </task>
+    <task id="LOCAL-00009" summary="心跳刷新任务状态有点慢，改为控制上报刷新">
+      <created>1619354044748</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619354044748</updated>
+    </task>
+    <task id="LOCAL-00010" summary="心跳刷新任务状态有点慢，改为控制上报刷新">
+      <created>1619354232494</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619354232494</updated>
+    </task>
+    <task id="LOCAL-00011" summary="心跳刷新任务状态有点慢，改为控制上报刷新">
+      <created>1619396659315</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619396659315</updated>
+    </task>
+    <task id="LOCAL-00012" summary="报警跳转">
+      <created>1619403120600</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619403120600</updated>
+    </task>
+    <task id="LOCAL-00013" summary="协运增加协运模式">
+      <created>1619416409216</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619416409216</updated>
+    </task>
+    <task id="LOCAL-00014" summary="协运增加协运模式">
+      <created>1619417711540</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1619417711540</updated>
+    </task>
+    <task id="LOCAL-00015" summary="添加sn">
+      <created>1619423682685</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1619423682685</updated>
+    </task>
+    <task id="LOCAL-00016" summary="防连点">
+      <created>1619424877572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1619424877572</updated>
+    </task>
+    <task id="LOCAL-00017" summary="更换提示优先级">
+      <created>1619431313618</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619431313618</updated>
+    </task>
+    <task id="LOCAL-00018" summary="修改文本字符串">
+      <created>1619484789909</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1619484789909</updated>
+    </task>
+    <task id="LOCAL-00019" summary="代码上传">
+      <created>1619503558785</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1619503558785</updated>
+    </task>
+    <task id="LOCAL-00020" summary="协运模式判断错误">
+      <created>1619608512392</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1619608512392</updated>
+    </task>
+    <task id="LOCAL-00021" summary="报警弹框各种崩溃 白屏只显示机器人图标问题问题">
+      <created>1619658134552</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1619658134552</updated>
+    </task>
+    <task id="LOCAL-00022" summary="代码上传">
+      <created>1619742413309</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1619742413309</updated>
+    </task>
+    <task id="LOCAL-00023" summary="代码上传">
+      <created>1619749993231</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1619749993231</updated>
+    </task>
+    <task id="LOCAL-00024" summary="智能对话增加运动控制">
+      <created>1620453172054</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1620453172054</updated>
+    </task>
+    <task id="LOCAL-00025" summary="代码上库">
+      <created>1620467733505</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1620467733505</updated>
+    </task>
+    <task id="LOCAL-00026" summary="弹框线程切换">
+      <created>1620606438082</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1620606438082</updated>
+    </task>
+    <task id="LOCAL-00027" summary="删除日志">
+      <created>1620612636759</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1620612636759</updated>
+    </task>
+    <task id="LOCAL-00028" summary="任务排序">
+      <created>1620632507290</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1620632507290</updated>
+    </task>
+    <task id="LOCAL-00029" summary="activity生命周期监控">
+      <created>1620698203992</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1620698203992</updated>
+    </task>
+    <task id="LOCAL-00030" summary="删除报警系统弹框">
+      <created>1620723834752</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1620723834752</updated>
+    </task>
+    <task id="LOCAL-00031" summary="删除冗余代码">
+      <created>1620727042767</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1620727042767</updated>
+    </task>
+    <task id="LOCAL-00032" summary="算法多个开关一起点击处理">
+      <created>1621418488829</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1621418488829</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="协运任务格式和机器人错误" />
+    <MESSAGE value="关门或者开门后重置动画对象" />
+    <MESSAGE value="代码何如错误" />
+    <MESSAGE value="报警切换到popupWindow" />
+    <MESSAGE value="大图预览" />
+    <MESSAGE value="全局toast加一个外框颜色" />
+    <MESSAGE value="心跳刷新任务状态有点慢，改为控制上报刷新" />
+    <MESSAGE value="报警跳转" />
+    <MESSAGE value="协运增加协运模式" />
+    <MESSAGE value="添加sn" />
+    <MESSAGE value="防连点" />
+    <MESSAGE value="更换提示优先级" />
+    <MESSAGE value="修改文本字符串" />
+    <MESSAGE value="协运模式判断错误" />
+    <MESSAGE value="报警弹框各种崩溃 白屏只显示机器人图标问题问题" />
+    <MESSAGE value="代码上传" />
+    <MESSAGE value="智能对话增加运动控制" />
+    <MESSAGE value="代码上库" />
+    <MESSAGE value="弹框线程切换" />
+    <MESSAGE value="删除日志" />
+    <MESSAGE value="任务排序" />
+    <MESSAGE value="activity生命周期监控" />
+    <MESSAGE value="删除报警系统弹框" />
+    <MESSAGE value="删除冗余代码" />
+    <MESSAGE value="算法多个开关一起点击处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法多个开关一起点击处理" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1623046444014">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623046444014" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619749649720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619749649720" />
+    <state x="533" y="444" width="971" height="596" key="#xdebugger.evaluate" timestamp="1623046413519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="533" y="444" width="971" height="596" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1623046413519" />
+    <state x="815" y="284" key="AndroidProcessChooserDialog" timestamp="1623047413836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="815" y="284" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623047413836" />
+    <state x="562" y="112" key="CommitChangelistDialog2" timestamp="1621418486605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="562" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1621418486605" />
+    <state x="70" y="103" width="1736" height="856" key="DiffContextDialog" timestamp="1621418215834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="70" y="103" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621418215834" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1626079636972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626079636972" />
+    <state width="1613" height="218" key="GridCell.Tab.0.bottom" timestamp="1624089991392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1613" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624089991392" />
+    <state width="1613" height="218" key="GridCell.Tab.0.center" timestamp="1624089991392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1613" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624089991392" />
+    <state width="1613" height="218" key="GridCell.Tab.0.left" timestamp="1624089991392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1613" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624089991392" />
+    <state width="1613" height="218" key="GridCell.Tab.0.right" timestamp="1624089991392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1613" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624089991392" />
+    <state width="1445" height="66" key="GridCell.Tab.1.bottom" timestamp="1623047678232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1445" height="66" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623047678232" />
+    <state width="1445" height="66" key="GridCell.Tab.1.center" timestamp="1623047678232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1445" height="66" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623047678232" />
+    <state width="1445" height="66" key="GridCell.Tab.1.left" timestamp="1623047678232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1445" height="66" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623047678232" />
+    <state width="1445" height="66" key="GridCell.Tab.1.right" timestamp="1623047678232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1445" height="66" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623047678232" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1619699835461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619699835461" />
+    <state x="669" y="235" key="MultipleFileMergeDialog" timestamp="1619699835468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619699835468" />
+    <state x="737" y="230" key="RollbackChangesDialog" timestamp="1619607961365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="737" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619607961365" />
+    <state x="0" y="0" key="ScreenshotViewer.Dimensions" timestamp="1620698445704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="ScreenshotViewer.Dimensions/0.0.1920.1040@0.0.1920.1040" timestamp="1620698445704" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1627003712146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627003712146" />
+    <state x="681" y="260" width="582" height="524" key="StructurePopup" timestamp="1624174628883">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="260" width="582" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1624174628883" />
+    <state x="806" y="435" key="VCS.ChangelistChooser" timestamp="1621407052420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="435" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1621407052420" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1627346886099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627346886099" />
+    <state x="745" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623030188009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="745" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623030188009" />
+    <state x="710" y="221" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1619089314272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="221" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619089314272" />
+    <state x="437" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620716890676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="437" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1620716890676" />
+    <state x="636" y="254" width="733" height="532" key="find.popup" timestamp="1624531469064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="254" width="733" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624531469064" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1623056780544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623056780544" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1626956734544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626956734544" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/ui/activity/RobotSettingActivity.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/MaskNotifyFragment.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/face/FaceUploadActivity.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/ui/dialog/TaskListDialogFragment.java</url>
+          <line>403</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/ui/activity/RobotSettingActivity.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/ui/activity/RobotSettingActivity.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/db/DatabaseManager.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/db/DatabaseManager.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>jar://E:/androidstudioCache/.gradle/caches/modules-2/files-2.1/androidx.room/room-runtime/2.2.3/174ebdbe3e7a886906c6e488c230a74c6da0ccea/room-runtime-2.2.3-sources.jar!/androidx/room/RoomDatabase.java</url>
+          <line>887</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/manager/RobotDataManager.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/manager/RobotDataManager.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/manager/RobotDataManager.java</url>
+          <line>228</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/MainActivity.java</url>
+          <line>229</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/NotifyManager.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/AlarmNotifyActivity.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://E:/androidstudioCache/.gradle/caches/modules-2/files-2.1/q.rorbin/VerticalTabLayout/1.2.5/38fb8740eba8f375174c1b58fdb6559612e0ad3c/VerticalTabLayout-1.2.5-sources.jar!/q/rorbin/verticaltablayout/VerticalTabLayout.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://E:/androidstudioCache/.gradle/caches/modules-2/files-2.1/q.rorbin/VerticalTabLayout/1.2.5/38fb8740eba8f375174c1b58fdb6559612e0ad3c/VerticalTabLayout-1.2.5-sources.jar!/q/rorbin/verticaltablayout/VerticalTabLayout.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/CustomVerticalTab.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/AreaMonitorNotifyFragment.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://E:/androidstudioCache/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java</url>
+          <line>2165</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://E:/androidstudioCache/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java</url>
+          <line>2033</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/alarm/CustomScrollViewPager.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/widget/CompoundButton.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/widget/CompoundButton.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/NavigationView.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/NavigationView.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/NavigationView.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/map/NavigationView.java</url>
+          <line>190</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/db/FaceListAlarmDao.java</url>
+          <line>14</line>
+          <properties class="com.maxvision.tech.robot.db.FaceListAlarmDao" method="insert" />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/db/MaskAlarmDao.java</url>
+          <line>14</line>
+          <properties class="com.maxvision.tech.robot.db.MaskAlarmDao" method="insert" />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxvision/tech/robot/db/TempAlarmDao.java</url>
+          <line>14</line>
+          <properties class="com.maxvision.tech.robot.db.TempAlarmDao" method="insert" />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

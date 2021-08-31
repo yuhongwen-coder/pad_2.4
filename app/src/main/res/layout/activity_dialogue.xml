@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#223a60">
+
+    <FrameLayout
+        android:id="@+id/fl_video"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_wd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/recyclerview"
+        app:layout_constraintTop_toBottomOf="@+id/alarm_switch_back">
+
+        <!-- 问答标题 -->
+        <TextView
+            android:id="@+id/tv_qa_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:text="问答"
+            app:drawableLeftCompat="@mipmap/ic_question"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <!-- 问 -->
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:textColor="#00ADFE"
+            android:textSize="24sp"
+            tools:text="问题：武汉天气怎样"/>
+
+
+        <!-- 答 -->
+        <TextView
+            android:id="@+id/tv_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:maxLines="100"
+            android:layout_marginStart="16dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:text="回答：你来武汉做什么"/>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/spreadView"/>
+
+    <View
+        android:id="@+id/view_cancel"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:visibility="gone"
+        android:background="@drawable/shape_backgroung_4_1_round"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.maxvision.tech.robot.ui.view.SpreadView
+        android:id="@+id/spreadView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_text"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="@drawable/shape_backgroung_while"
+        android:padding="10dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/tv_tip"
+            android:textSize="18sp"
+            android:textColor="#1e9afc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始说话..."/>
+        <EditText
+            android:id="@+id/edt_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textSize="28sp"
+            android:layout_below="@+id/tv_tip"
+            android:layout_above="@+id/btn_send"/>
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:text="发送"
+            android:visibility="gone"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_backgroung_radius10_2"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_unfold"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_backgroung_ss2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <ImageView
+            android:id="@+id/iv_jt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            android:src="@drawable/ic_baseline_play_arrow_24"/>
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_kz"
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toRightOf="@+id/ll_unfold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/spreadView">
+        <com.maxvision.tech.robot.ui.view.MyRockerView
+            android:id="@+id/rockerXY_View"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            app:areaBackground="@mipmap/rocker_base"
+            app:rockerBackground="@mipmap/rocker"
+            app:rockerCallBackMode="CALL_BACK_MODE_STATE_CHANGE"
+            app:rockerSpeedLevel="10"
+            app:layout_constraintRight_toLeftOf="@id/robot_control_rl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.maxvision.tech.robot.ui.view.RobotControlRecyclerView
+            android:id="@+id/robot_control_rl"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="60dp"
+            app:layout_constraintTop_toTopOf="@id/rockerXY_View"
+            app:layout_constraintBottom_toBottomOf="@id/rockerXY_View"
+            app:layout_constraintLeft_toRightOf="@id/rockerXY_View"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/alarm_switch_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@mipmap/ic_back_"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Switch
+        android:id="@+id/sw_aduio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/alarm_switch_back"
+        app:layout_constraintLeft_toRightOf="@id/alarm_switch_back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        android:text="@string/text_mode"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:thumb="@drawable/zldh_thumb_selector"
+        android:track="@drawable/zldh_track_selector"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

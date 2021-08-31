@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RobotApp_2.4.0.iml" filepath="$PROJECT_DIR$/.idea/modules/RobotApp_2.4.0.iml" group="RobotApp_2.4.0" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="RobotApp_2.4.0/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_webrtc/lib_webrtc.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_webrtc/lib_webrtc.iml" group="RobotApp_2.4.0/lib_webrtc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_mqtt/module_mqtt.iml" filepath="$PROJECT_DIR$/.idea/modules/module_mqtt/module_mqtt.iml" group="RobotApp_2.4.0/module_mqtt" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_webrtc/module_webrtc.iml" filepath="$PROJECT_DIR$/.idea/modules/module_webrtc/module_webrtc.iml" group="RobotApp_2.4.0/module_webrtc" />
+    </modules>
+  </component>
+</project>

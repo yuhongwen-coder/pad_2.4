@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/rl_content"
+    android:background="#223a60">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="终端配置"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <!--消息服务器ip-->
+    <com.maxvision.tech.robot.ui.view.IpLayout
+        android:id="@+id/ip_msg"
+        android:layout_below="@id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="消息服务器IP：" />
+
+    <!--webrtcIp-->
+    <com.maxvision.tech.robot.ui.view.IpLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/ip_web"
+        android:layout_below="@id/ip_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="WebRtc服务器IP：" />
+
+    <LinearLayout
+        android:id="@+id/ll_call"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/ip_web">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="呼叫开关："
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <Switch
+            android:id="@+id/item_call_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:showText="true"
+            android:switchMinWidth="48dp"
+            android:layout_marginStart="30dp"
+            android:switchTextAppearance="@style/switchColor"
+            android:textColor="@color/white"
+            android:textOff="关"
+            android:textOn="开"
+            android:thumb="@drawable/btn_thumb2"
+            android:track="@drawable/btn_track2"/>
+
+        <EditText
+            android:id="@+id/edt_x"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:hint="X坐标"
+            android:background="@color/white"
+            android:textSize="16sp"
+            android:digits="0123456789."
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/edt_y"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:hint="Y坐标"
+            android:background="@color/white"
+            android:textSize="16sp"
+            android:digits="0123456789."
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/edt_a"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:hint="角度"
+            android:background="@color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:digits="0123456789."
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_clickxy"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="保存"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:background="@drawable/shape_backgroung_radius10_2"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/back"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/ic_back_"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

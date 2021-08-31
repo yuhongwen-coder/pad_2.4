@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.maxvision.tech.webrtc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml
+10
+11    <!-- 设置视频直播权限 -->
+12    <uses-feature android:name="android.hardware.camera" />
+12-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:6:5-60
+12-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:6:19-57
+13    <uses-feature android:name="android.hardware.camera.autofocus" />
+13-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:7:5-70
+13-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:7:19-67
+14    <uses-feature
+14-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:8:5-10:35
+15        android:glEsVersion="0x00020000"
+15-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:9:9-41
+16        android:required="true" />
+16-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:10:9-32
+17
+18    <application>
+18-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:12:5-25:19
+19        <activity
+19-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:13:9-18:66
+20            android:name="com.maxvision.tech.webrtc.ui.ChatSingleActivity"
+20-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:14:13-50
+21            android:configChanges="orientation|smallestScreenSize|screenSize|screenLayout"
+21-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:15:13-91
+22            android:launchMode="singleInstance"
+22-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:16:13-48
+23            android:screenOrientation="fullUser"
+23-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:17:13-49
+24            android:theme="@style/Webrtc.AppTheme.NoActionBar" />
+24-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:18:13-63
+25        <activity
+25-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:19:9-24:66
+26            android:name="com.maxvision.tech.webrtc.ui.ChatRoomActivity"
+26-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:20:13-48
+27            android:configChanges="orientation|smallestScreenSize|screenSize|screenLayout"
+27-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:21:13-91
+28            android:launchMode="singleInstance"
+28-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:22:13-48
+29            android:screenOrientation="fullUser"
+29-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:23:13-49
+30            android:theme="@style/Webrtc.AppTheme.NoActionBar" />
+30-->F:\work\robot\RobotNew\pad\pad_2.4\module_webrtc\src\main\AndroidManifest.xml:24:13-63
+31    </application>
+32
+33</manifest>

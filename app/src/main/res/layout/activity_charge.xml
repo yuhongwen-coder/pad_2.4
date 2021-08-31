@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#223a60">
+
+    <ImageView
+        android:id="@+id/iv_flash_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_flash_light"
+        android:contentDescription="@null"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:layout_width="232dp"
+        android:layout_height="232dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_charging_circle"
+        app:layout_constraintBottom_toBottomOf="@id/iv_flash_bg"
+        app:layout_constraintLeft_toLeftOf="@id/iv_flash_bg"
+        app:layout_constraintRight_toRightOf="@id/iv_flash_bg"
+        app:layout_constraintTop_toTopOf="@id/iv_flash_bg" />
+
+
+    <com.maxvision.tech.robot.ui.view.LD_WaveView
+        android:id="@+id/waveViewCircle"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="@id/iv_flash_bg"
+        app:layout_constraintLeft_toLeftOf="@id/iv_flash_bg"
+        app:layout_constraintRight_toRightOf="@id/iv_flash_bg"
+        app:layout_constraintTop_toTopOf="@id/iv_flash_bg"
+        app:wave_circle="true"
+        app:wave_color="#434e6c"
+        app:wave_color2="#66434e6c" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/iv_flash_bg"
+        app:layout_constraintLeft_toLeftOf="@id/iv_flash_bg"
+        app:layout_constraintRight_toRightOf="@id/iv_flash_bg"
+        app:layout_constraintTop_toTopOf="@id/iv_flash_bg">
+
+        <TextView
+            android:id="@+id/tv_charge_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_charge_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_switch"
+        android:button="@drawable/btn_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/iv_flash_bg"
+        app:layout_constraintRight_toRightOf="@id/iv_flash_bg"
+        app:layout_constraintTop_toBottomOf="@id/waveViewCircle" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/ic_back_"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

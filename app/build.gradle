@@ -1,0 +1,154 @@
+plugins {
+    id 'com.android.application'
+    id 'com.hujiang.android-aspectjx'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.maxvision.tech.robot"
+        minSdkVersion 24
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        flavorDimensions "default"
+
+        buildConfigField('String', 'BUGLY_APP_ID', "${BUGLY_APP_ID}")
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation":
+                                     "$projectDir/schemas".toString()]
+            }
+        }
+
+        aspectjx {
+            include applicationId
+        }
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        outputFileName = "robotApp_${defaultConfig.versionName}_${variant.productFlavors[0].name}.apk"
+                    }
+                }
+            }
+        }
+
+    }
+    signingConfigs {
+        debug {
+            storeFile file('robotkey.jks')
+            storePassword '123456'
+            keyAlias 'robotkey'
+            keyPassword '123456'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        dataBinding true
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    //渠道分包
+    productFlavors {
+        //盛视通用机器人
+        SS_TY { manifestPlaceholders = [UMENG_CHANNEL_VALUE: "SS_TY"] }
+        //天津
+        TJ_HG { manifestPlaceholders = [UMENG_CHANNEL_VALUE: "TJ_HG"] }
+        //深圳
+        SZ_TY { manifestPlaceholders = [UMENG_CHANNEL_VALUE: "SZ_TY"] }
+        //天府 边检
+        TF_BJ { manifestPlaceholders = [UMENG_CHANNEL_VALUE: "TF_BJ"] }
+        //天府 海关
+        TF_HG { manifestPlaceholders = [UMENG_CHANNEL_VALUE: "TF_HG"] }
+        //郑州
+        ZZ_HG { manifestPlaceholders = [UMENG_CHANNEL_VALUE: "ZZ_HG"] }
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation(name: 'voice_lib-release', ext: 'aar')
+
+    // 集成androidx.room
+    implementation "androidx.room:room-runtime:2.2.3"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    annotationProcessor "androidx.room:room-compiler:2.2.3"
+    implementation "androidx.room:room-rxjava2:2.2.3"
+    implementation "androidx.room:room-guava:2.2.3"
+    testImplementation "androidx.room:room-testing:2.2.3"
+
+    // AnddroidX 分页加载组件
+    implementation "androidx.paging:paging-runtime:2.1.1"
+    testImplementation "androidx.paging:paging-common:2.1.1"
+    implementation "androidx.paging:paging-rxjava2:2.1.1"
+
+    // butterknife
+    implementation 'com.jakewharton:butterknife:10.2.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
+    implementation 'com.alibaba:fastjson:1.2.48'
+
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+    implementation 'q.rorbin:VerticalTabLayout:1.2.5'
+    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.6.0'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.dou361.dialogui:jjdxm-dialogui:1.0.3'
+    implementation 'top.zibin:Luban:1.1.8'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation project(':module_mqtt')
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.12'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.jcodecraeer:xrecyclerview:1.5.9'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+    implementation 'me.jessyan:autosize:1.2.1'
+    implementation project(path: ':module_webrtc')
+
+    // view控件效果
+    implementation 'com.noober.background:core:1.6.5'
+    // bugly
+    implementation 'com.tencent.bugly:crashreport:3.3.92'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+
+    api 'com.microsoft.cognitiveservices.speech:client-sdk:1.16.0'
+
+    // Aop
+    implementation 'org.aspectj:aspectjrt:1.9.6'
+
+}

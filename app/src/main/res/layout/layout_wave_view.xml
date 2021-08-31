@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="170dp">
+    <!--中心imageView-->
+    <ImageView
+        android:id="@+id/iv_wave"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_circle" />
+    <!--中间的imageView-->
+    <ImageView
+        android:id="@+id/iv_wave_1"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_circle1" />
+    <!--最外层imageView-->
+    <ImageView
+        android:id="@+id/iv_wave_2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_circle2"
+        android:scaleType="center" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:scaleType="center"
+        android:src="@mipmap/ic_mic1" />
+</FrameLayout>

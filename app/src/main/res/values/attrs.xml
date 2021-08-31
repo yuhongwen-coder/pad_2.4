@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleIndicatorView">
+        <!-- 被选中圆的颜色 -->
+        <attr name="fillColor" format="color" />
+        <!-- 未选择圆的颜色 -->
+        <attr name="strokeColor" format="color" />
+        <!-- 圆点的大小 -->
+        <attr name="radius2" format="dimension" />
+        <!-- 圆点间间距的大小 -->
+        <attr name="circleInterval" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RockerView">
+        <attr name="areaBackground" format="color|reference" />
+        <attr name="rockerBackground" format="color|reference" />
+        <attr name="rockerScale" format="float"/>
+        <attr name="rockerSpeedLevel" format="integer" />
+        <attr name="rockerCallBackMode">
+            <flag name="CALL_BACK_MODE_MOVE" value="0" />
+            <flag name="CALL_BACK_MODE_STATE_CHANGE" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LD_WaveView">
+        <attr name="wave_color" format="color" />
+        <attr name="wave_color2" format="color" />
+        <attr name="wave_circle" format="boolean" />
+    </declare-styleable>
+
+<!--    机器人设置属性-->
+    <declare-styleable name="Robot_Setting">
+        <attr name="setting_text_color" format="color"/>
+        <attr name="setting_text_title_color" format="color"/>
+        <attr name="setting_text_title_value" format="string"/>
+        <attr name="setting_text_value" format="string"/>
+        <attr name="setting_image" format="reference"/>
+        <attr name="setting_bg" format="reference"/>
+        <attr name="setting_text_title_boolean" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="IpLayout">
+        <attr name="name" format="string" />
+        <attr name="ip" format="string" />
+        <attr name="port" format="string" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mq_pad_alarm">pad_alarm</string>
+    <string name="mq_pad_call">pad_call</string>
+    <string name="mq_pad_call_deal">pad_call_deal</string>
+    <string name="mq_pad_heart">pad_heart</string>
+    <string name="mq_pad_location">pad_location</string>
+    <string name="mq_sn_pad_control_door">%s_pad_control_door</string>
+    <string name="mq_sn_pad_control_function">%s_pad_control_function</string>
+    <string name="mq_sn_pad_control_function_return">%s_pad_control_function_return</string>
+    <string name="mq_sn_pad_get_dialogue">%s_rob_control_get_dialogue</string>
+    <string name="mq_sn_pad_set_dialogue">%s_pad_set_dialogue</string>
+    <string name="mq_sn_pad_set_map">%s_pad_set_map</string>
+    <string name="mq_sn_pad_set_navigation">%s_pad_set_navigation</string>
+    <string name="mq_sn_pad_set_task">%s_pad_set_task</string>
+    <string name="mq_sn_pad_task_return">%s_pad_task_return</string>
+    <string name="mq_sn_pad_upload_return">%s_pad_upload_return</string>
+    <string name="mq_sn_rob_control">%s_rob_control</string>
+    <string name="mq_sn_rob_get_map">%s_rob_get_map</string>
+    <string name="mq_sn_rob_get_navigation">%s_rob_get_navigation</string>
+    <string name="mq_sn_rob_get_task">%s_rob_get_task</string>
+    <string name="mq_sn_rob_p2p">%s_rob_p2p</string>
+    <string name="mq_sn_rob_task_control">%s_rob_task_control</string>
+    <string name="mq_sn_rob_upload_face">%s_rob_upload_face</string>
+</resources>

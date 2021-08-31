@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#223a60">
+
+    <ImageView
+        android:id="@+id/robot_setting_root_left_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:background="@mipmap/door_open_0"
+        app:layout_constraintBottom_toTopOf="@id/robot_setting_root_door"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/robot_setting_root_door_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前车门状态："
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/robot_setting_root_door"
+        app:layout_constraintRight_toLeftOf="@id/robot_setting_root_door"
+        app:layout_constraintTop_toBottomOf="@id/robot_setting_root_left_parent" />
+
+    <TextView
+        android:id="@+id/robot_setting_root_door"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开门"
+        android:textColor="@color/robot_setting_state"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/robot_setting_root_door_title"
+        app:layout_constraintRight_toRightOf="@id/robot_setting_root_left_parent"
+        app:layout_constraintTop_toBottomOf="@id/robot_setting_root_left_parent" />
+
+
+    <TextView
+        android:id="@+id/robot_setting_operation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="操作按钮"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@id/robot_setting_root_left_parent"
+        app:layout_constraintTop_toTopOf="@id/robot_setting_root_left_parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/robot_setting_operation_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="@id/robot_setting_root_door"
+        app:layout_constraintLeft_toLeftOf="@id/robot_setting_operation_title"
+        app:layout_constraintRight_toLeftOf="@id/robot_setting_back"
+        app:layout_constraintTop_toBottomOf="@id/robot_setting_operation_title"
+        tools:listitem="@layout/item_robot_recycler_setting" />
+
+
+    <ImageView
+        android:id="@+id/robot_setting_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/ic_back_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

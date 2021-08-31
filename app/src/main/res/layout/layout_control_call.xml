@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:rocker="http://schemas.android.com/apk/res-auto">
+
+    <com.maxvision.tech.robot.ui.view.RockerView
+        android:id="@+id/rv_view"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="40dp"
+        rocker:areaBackground="@mipmap/rocker_base"
+        rocker:rockerBackground="@mipmap/rocker"
+        rocker:rockerCallBackMode="CALL_BACK_MODE_STATE_CHANGE"
+        rocker:rockerSpeedLevel="10"/>
+
+</RelativeLayout>

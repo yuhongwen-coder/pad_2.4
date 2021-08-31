@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 心跳 -->
+    <string name="mq_pad_heart">%1s_pad_heart</string>
+    <!-- 获取地图-->
+    <string name="mq_sn_rob_get_map">%1s_%2s_rob_get_map</string>
+    <string name="mq_sn_pad_set_map">%1s_%2s_pad_set_map</string>
+    <!-- 导航点数据-->
+    <string name="mq_sn_rob_get_navigation">%1s_%2s_rob_get_navigation</string>
+    <string name="mq_sn_pad_set_navigation">%1s_%2s_pad_set_navigation</string>
+    <!-- 导航点位置 -->
+    <string name="mq_pad_location">%1s_pad_location</string>
+    <!-- 报警推送 -->
+    <string name="mq_pad_alarm">%1s_pad_alarm</string>
+    <!-- 人脸上传 -->
+    <string name="mq_sn_rob_upload_face">%1s_%2s_rob_upload_face</string>
+    <string name="mq_sn_pad_upload_return">%1s_%2s_pad_upload_return</string>
+    <!-- 运动控制 -->
+    <string name="mq_sn_rob_control">%1s_%2s_rob_control</string>
+    <!-- 视频对讲 -->
+    <string name="mq_sn_rob_p2p">%1s_%2s_rob_p2p</string>
+    <string name="mq_pad_call">%1s_pad_call</string>
+    <string name="mq_pad_call_deal">%1s_pad_call_deal</string>
+    <!-- 任务列表 -->
+    <string name="mq_sn_rob_get_task">%1s_%2s_rob_get_task</string>
+    <string name="mq_sn_pad_set_task">%1s_%2s_pad_set_task</string>
+    <!-- 任务控制 -->
+    <string name="mq_sn_rob_task_control">%1s_%2s_rob_task_control</string>
+    <string name="mq_sn_pad_task_return">%1s_%2s_pad_task_return</string>
+    <!-- 算法控制 -->
+    <string name="mq_sn_pad_control_function">%1s_%2s_pad_control_function</string>
+    <string name="mq_sn_pad_control_function_return">%1s_%2s_pad_control_function_return</string>
+    <!--门控制-->
+    <string name="mq_sn_pad_control_door">%1s_%2s_pad_control_door</string>
+
+    <!-- 智能对话-->
+    <string name="mq_sn_pad_set_dialogue">%1s_%2s_pad_set_dialogue</string>
+    <string name="mq_sn_pad_get_dialogue">%1s_%2s_rob_control_get_dialogue</string>
+</resources>
